@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0F2D52;
+  --color-navy-light: #1A4578;
+  --color-navy-dark: #0A1F3A;
+  --color-accent: #EAF3FF;
+  --color-accent-dark: #D4E8FF;
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #FFFFFF;
+  color: #1F2937;
+}
+
+/* Accessibility: Large text mode */
+.accessibility-large-text {
+  font-size: 120%;
+}
+
+.accessibility-large-text h1 { font-size: 2.5rem; }
+.accessibility-large-text h2 { font-size: 2rem; }
+.accessibility-large-text h3 { font-size: 1.5rem; }
+.accessibility-large-text p,
+.accessibility-large-text span,
+.accessibility-large-text button { font-size: 1.125rem; }
+
+/* Accessibility: High contrast mode */
+.accessibility-high-contrast {
+  background: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+.accessibility-high-contrast .bg-white,
+.accessibility-high-contrast .bg-accent,
+.accessibility-high-contrast .bg-gray-50 {
+  background: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+.accessibility-high-contrast .text-navy,
+.accessibility-high-contrast .text-gray-600,
+.accessibility-high-contrast .text-gray-700,
+.accessibility-high-contrast .text-gray-500 {
+  color: #FFFFFF !important;
+}
+
+.accessibility-high-contrast .border-gray-200,
+.accessibility-high-contrast .border-gray-100 {
+  border-color: #FFFFFF !important;
+}
+
+.accessibility-high-contrast button,
+.accessibility-high-contrast a {
+  outline: 2px solid #FFFF00;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid #0F2D52;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F3F4F6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0F2D52;
+  border-radius: 4px;
+}
