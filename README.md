@@ -15,6 +15,14 @@ MediBridge AI is a healthcare communication platform that reduces prescription m
 - **Accessibility Mode** — Large text, high contrast, voice-first, simplified language
 - **AI Safety Layer** — Detects missing dosages, unclear handwriting, drug interactions
 - **HCI Research Section** — Documented design principles and research methodology
+<img width="1680" height="1006" alt="Screenshot 2026-06-08 at 6 28 37 PM" src="https://github.com/user-attachments/assets/347d0a0d-eeba-46b3-8df9-4de2dd7e11f4" />
+
+<img width="1680" height="1006" alt="Screenshot 2026-06-08 at 6 28 47 PM" src="https://github.com/user-attachments/assets/dc093c85-68c3-43dd-bf67-f2085d469b22" />
+
+<img width="1680" height="1006" alt="Screenshot 2026-06-08 at 6 28 57 PM" src="https://github.com/user-attachments/assets/766eaf00-1a93-401b-9f73-4e3ba51e01ca" />
+<img width="1680" height="1006" alt="Screenshot 2026-06-08 at 6 29 08 PM" src="https://github.com/user-attachments/assets/b9f7c51c-5576-450f-8274-3ad0923f3ffa" />
+<img width="1680" height="1006" alt="Screenshot 2026-06-08 at 6 29 17 PM" src="https://github.com/user-attachments/assets/94f99d5e-5284-429f-965e-c7f25f420af7" />
+
 
 ## Tech Stack
 
