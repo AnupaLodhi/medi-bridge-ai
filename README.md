@@ -3,6 +3,7 @@
 **Connecting Doctors, Pharmacies, and Patients Through Intelligent Healthcare Communication**
 
 MediBridge AI is a healthcare communication platform that reduces prescription misunderstandings by connecting doctors, patients, and pharmacies through AI-powered prescription interpretation, multilingual voice assistance, and digital prescription management.
+## Live Demo (https://medi-bridge-ai-nu.vercel.app)
 
 ## Features
 
