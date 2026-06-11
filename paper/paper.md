@@ -1,5 +1,5 @@
 ---
-title: "MediBridge AI is an AI-powered healthcare communication platform designed to support prescription understanding and coordination among doctors, pharmacies, and patients through intelligent digital workflows. The platform provides prescription interpretation, multilingual voice assistance, QR-based verification, and medication reminders to improve the accessibility of healthcare communication."
+title: "MediBridge AI: An Intelligent Healthcare Communication Platform for Prescription Understanding and Care Coordination"
 
 tags:
   - healthcare
@@ -19,8 +19,7 @@ bibliography: paper.bib
 
 # Summary
 
-MediBridge AI is an AI-powered healthcare communication platform designed to reduce prescription misunderstandings by connecting doctors, pharmacies, and patients through intelligent digital workflows. The platform supports prescription interpretation, multilingual voice assistance, QR-based verification, and medication reminders.
-
+MediBridge AI is an AI-powered healthcare communication platform designed to support prescription understanding and coordination among doctors, pharmacies, and patients through intelligent digital workflows. The platform provides prescription interpretation, multilingual voice assistance, QR-based verification, and medication reminders to improve the accessibility of healthcare communication.
 # Statement of Need
 
 Medication errors and communication gaps remain significant contributors to preventable healthcare complications worldwide. Patients often face difficulties understanding prescription instructions, while pharmacists and physicians encounter inefficiencies in verifying and communicating treatment plans. Existing digital health solutions frequently lack multilingual support, accessibility features, and integrated workflows spanning multiple healthcare stakeholders. MediBridge AI addresses these challenges by providing a unified framework for accessible and multilingual healthcare communication.
