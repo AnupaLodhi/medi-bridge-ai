@@ -1,6 +1,5 @@
 # CITATION.cff
 
-```yaml
 cff-version: 1.2.0
 message: "If you use MediBridge AI in your research or project, please cite it as below."
 title: "MediBridge AI"
@@ -29,6 +28,3 @@ keywords:
   - telemedicine
   - pharmacy
   - India
-```
-
-> Save this file as `CITATION.cff` in your repository root.
