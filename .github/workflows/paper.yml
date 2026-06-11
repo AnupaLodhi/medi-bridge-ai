@@ -1,4 +1,3 @@
-```yaml
 name: Build JOSS Paper
 
 on:
@@ -13,18 +12,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  paper:
+  build-paper:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build paper
-        uses: openjournals/openjournals-docker@master
+      - name: Build JOSS paper
+        uses: openjournals/inara@v1
         with:
-          args: >-
-            /bin/bash -c
-            "cd paper &&
-             /usr/local/bin/inara -o pdf,crossref paper.md"
-```
+          path: paper/paper.md
