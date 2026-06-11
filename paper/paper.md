@@ -10,7 +10,7 @@ authors:
   - name: Anupa Lodhi
     affiliation: 1
 affiliations:
-  - name: SAGE University Bhopal, India
+  - name: SAGE University Indore, India
     index: 1
 date: 2026
 bibliography: paper.bib
