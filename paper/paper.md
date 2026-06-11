@@ -1,5 +1,6 @@
 ---
-title: "MediBridge AI: An Intelligent Healthcare Communication Platform Connecting Doctors, Pharmacies, and Patients"
+title: "MediBridge AI is an AI-powered healthcare communication platform designed to support prescription understanding and coordination among doctors, pharmacies, and patients through intelligent digital workflows. The platform provides prescription interpretation, multilingual voice assistance, QR-based verification, and medication reminders to improve the accessibility of healthcare communication."
+
 tags:
   - healthcare
   - artificial intelligence
@@ -22,7 +23,7 @@ MediBridge AI is an AI-powered healthcare communication platform designed to red
 
 # Statement of Need
 
-Medication errors and communication gaps remain major contributors to preventable healthcare complications. Patients often struggle to understand prescriptions, while pharmacists and physicians face inefficiencies in verifying and communicating treatment instructions. Existing solutions frequently lack multilingual support and integrated workflows. MediBridge AI addresses these challenges by providing a unified platform tailored for accessible healthcare communication.
+Medication errors and communication gaps remain significant contributors to preventable healthcare complications worldwide. Patients often face difficulties understanding prescription instructions, while pharmacists and physicians encounter inefficiencies in verifying and communicating treatment plans. Existing digital health solutions frequently lack multilingual support, accessibility features, and integrated workflows spanning multiple healthcare stakeholders. MediBridge AI addresses these challenges by providing a unified framework for accessible and multilingual healthcare communication.
 
 # Features
 
@@ -36,7 +37,7 @@ Medication errors and communication gaps remain major contributors to preventabl
 
 # Impact
 
-MediBridge AI provides an accessible framework for improving healthcare communication, particularly in multilingual and resource-constrained settings.
+MediBridge AI provides an accessible framework for healthcare communication, particularly in multilingual and resource-constrained settings. By integrating patients, physicians, and pharmacists within a shared digital ecosystem, the platform demonstrates how research software can support prescription interpretation, medication management, and inclusive access to health information for diverse populations, including elderly and low-literacy users.
 
 # Acknowledgements
 
