@@ -1,0 +1,30 @@
+```yaml
+name: Build JOSS Paper
+
+on:
+  push:
+    paths:
+      - 'paper/**'
+      - '.github/workflows/paper.yml'
+  pull_request:
+    paths:
+      - 'paper/**'
+      - '.github/workflows/paper.yml'
+  workflow_dispatch:
+
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build paper
+        uses: openjournals/openjournals-docker@master
+        with:
+          args: >-
+            /bin/bash -c
+            "cd paper &&
+             /usr/local/bin/inara -o pdf,crossref paper.md"
+```
