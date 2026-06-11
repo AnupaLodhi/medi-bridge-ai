@@ -41,5 +41,3 @@ MediBridge AI provides an accessible framework for improving healthcare communic
 # Acknowledgements
 
 The author thanks SAGE University Bhopal for providing an environment that encouraged innovation and independent learning.
-
-# References
