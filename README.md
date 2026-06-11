@@ -30,7 +30,10 @@ MediBridge AI is a healthcare communication platform that reduces prescription m
 |-------|-----------|
 | Frontend | React, TypeScript, TailwindCSS, React Router |
 | Backend | Node.js, Express, TypeScript |
-| AI | OCR, LLM-based prescription parsing, Speech-to-Text, Text-to-Speech |
+| AI | OCR: Tesseract.js
+LLM: OpenAI API / Gemini API / local implementation
+Speech-to-Text: [tool used]
+Text-to-Speech: [tool used]|
 
 ## Getting Started
 
