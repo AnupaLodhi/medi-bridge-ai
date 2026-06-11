@@ -1,0 +1,22 @@
+name: Build JOSS Paper
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'paper/**'
+  pull_request:
+    paths:
+      - 'paper/**'
+
+jobs:
+  build-paper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build paper
+        uses: docker://openjournals/inara:latest
+        with:
+          args: paper/paper.md
